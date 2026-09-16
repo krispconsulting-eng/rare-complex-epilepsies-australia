@@ -1,0 +1,72 @@
+<!-- RCE Report Downloads — wayfinding block. Paste into a WordPress Custom HTML block.
+     Replace the three href="#…" values with your hosted file URLs. -->
+<style>
+  .rce-dl { font-family: Aptos, Inter, "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; color: #000000; background: #F4F7FA; padding: 48px 24px; }
+  .rce-dl__inner { max-width: 920px; margin: 0 auto; }
+  .rce-dl__eyebrow { font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #0A2652; margin: 0 0 12px; }
+  .rce-dl__title { font-size: clamp(28px, 4vw, 40px); font-weight: 700; line-height: 1.15; margin: 0 0 8px; color: #000000; }
+  .rce-dl__subtitle { font-size: 20px; font-weight: 700; color: #203247; margin: 0 0 16px; }
+  .rce-dl__intro { font-size: 17px; line-height: 1.65; max-width: 640px; margin: 0 0 40px; }
+  .rce-dl__grid { display: flex; flex-wrap: wrap; gap: 24px; margin: 0 0 40px; }
+  .rce-dl__card { flex: 1 1 260px; background: #FFFFFF; display: flex; flex-direction: column; }
+  .rce-dl__bar { height: 6px; }
+  .rce-dl__body { padding: 24px; display: flex; flex-direction: column; flex: 1; }
+  .rce-dl__pages { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin: 0 0 8px; }
+  .rce-dl__h { font-size: 22px; font-weight: 700; margin: 0 0 8px; color: #000000; }
+  .rce-dl__p { font-size: 15px; line-height: 1.5; color: #203247; margin: 0 0 20px; flex: 1; }
+  .rce-dl__btn { display: block; text-align: center; font-size: 15px; font-weight: 700; padding: 10px 16px; text-decoration: none; }
+  .rce-dl__btn:focus-visible { outline: 3px solid #0B3F8F; outline-offset: 2px; }
+  .rce-dl__footer { background: #FFFFFF; padding: 20px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: baseline; font-size: 13px; }
+  .rce-dl__footer a { color: #0B3F8F; text-decoration: underline; }
+  .rce-dl__footer a:hover { color: #03737B; }
+  /* Tier accents (RCE design system v2.0 front-matter pairings) */
+  .rce-dl--glance .rce-dl__bar { background: #3B7838; } .rce-dl--glance .rce-dl__pages { color: #336B31; } .rce-dl--glance .rce-dl__btn { background: #3B7838; color: #FFFFFF; }
+  .rce-dl--exec .rce-dl__bar { background: #D59103; } .rce-dl--exec .rce-dl__pages { color: #8F6100; } .rce-dl--exec .rce-dl__btn { background: #D59103; color: #00163B; }
+  .rce-dl--full .rce-dl__bar { background: #00163B; } .rce-dl--full .rce-dl__pages { color: #00163B; } .rce-dl--full .rce-dl__btn { background: #00163B; color: #FFFFFF; }
+</style>
+
+<section class="rce-dl" aria-labelledby="rce-dl-title">
+  <div class="rce-dl__inner">
+    <p class="rce-dl__eyebrow">DEE Roundtable 2026</p>
+    <h2 id="rce-dl-title" class="rce-dl__title">A Shared Vision for the Future</h2>
+    <p class="rce-dl__subtitle">Rare and Complex Epilepsies in Australia</p>
+    <p class="rce-dl__intro">Choose the level of detail you need. All three downloads draw on the same Roundtable consensus — from a one-page overview to the full evidence base.</p>
+
+    <div class="rce-dl__grid">
+      <article class="rce-dl__card rce-dl--glance">
+        <div class="rce-dl__bar"></div>
+        <div class="rce-dl__body">
+          <p class="rce-dl__pages">1 page</p>
+          <h3 class="rce-dl__h">At a Glance</h3>
+          <p class="rce-dl__p">A one-page visual summary of the problem, the ask and the seven Roundtable sections. Best for a fast overview or sharing on a single screen.</p>
+          <a class="rce-dl__btn" href="#REPLACE-infographic-pdf-url">View infographic (PDF)</a>
+        </div>
+      </article>
+
+      <article class="rce-dl__card rce-dl--exec">
+        <div class="rce-dl__bar"></div>
+        <div class="rce-dl__body">
+          <p class="rce-dl__pages">3 pages</p>
+          <h3 class="rce-dl__h">Executive Summary</h3>
+          <p class="rce-dl__p">The key findings, the sector consensus and the recommended next steps. Best for policymakers, partners and sponsors who need the case without the full detail.</p>
+          <a class="rce-dl__btn" href="#REPLACE-executive-summary-pdf-url">View executive summary (PDF)</a>
+        </div>
+      </article>
+
+      <article class="rce-dl__card rce-dl--full">
+        <div class="rce-dl__bar"></div>
+        <div class="rce-dl__body">
+          <p class="rce-dl__pages">18 pages</p>
+          <h3 class="rce-dl__h">Full Technical Report</h3>
+          <p class="rce-dl__p">The complete evidence base: methodology, stakeholder detail, the priorities roadmap, acknowledgements and references. Best for anyone building on the detail.</p>
+          <a class="rce-dl__btn" href="#REPLACE-full-report-pdf-url">Open full report (PDF)</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="rce-dl__footer">
+      <div style="color:#767676;">A Shared Vision for the Future: Rare and Complex Epilepsies in Australia · DEE Roundtable 2026</div>
+      <div>Dr Neil Deacon · <a href="mailto:neil@healthadvanceconnect.com">neil@healthadvanceconnect.com</a> · <a href="tel:+61402551014">0402 551 014</a></div>
+    </div>
+  </div>
+</section>
