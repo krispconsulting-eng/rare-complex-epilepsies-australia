@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rare and Complex Epilepsies in Australia — A Shared Vision for the Future." />
+    <title>Rare and Complex Epilepsies in Australia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">DEE Roundtable Report · August 2026</p>
+            <h1 id="page-title">Rare and Complex<br />Epilepsies in Australia</h1>
+            <p class="hero-title">A Shared Vision for the Future</p>
+            <p class="intro">A shared direction for improving outcomes for people living with developmental and epileptic encephalopathies, their families and communities.</p>
+            <a class="button button-light" href="#downloads">Explore the report</a>
+          </div>
+          <img class="report-cover" src="public/roundtable-report-cover.jpg" alt="Cover of the DEE Roundtable Report, A Shared Vision for the Future" />
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container narrow">
+          <p class="eyebrow teal">A shared direction</p>
+          <h2>Building a stronger future, together</h2>
+          <p>The DEE Roundtable Report captures a shared vision for Rare and Complex Epilepsies in Australia. It brings together the voices, evidence and priorities of people and families with lived experience, clinicians, researchers, community organisations, industry and policy leaders.</p>
+        </div>
+      </section>
+
+      <section class="section panel">
+        <div class="container working-grid">
+          <div>
+            <p class="eyebrow purple">The Roundtable Working Group</p>
+            <h2>Working together for meaningful change</h2>
+          </div>
+          <div class="body-copy">
+            <p>The DEE Roundtable brought together people and families with lived experience, clinicians, researchers, patient organisations, industry and policy perspectives.</p>
+            <p>The Working Group was established to carry the Roundtable’s shared direction forward: connecting the evidence, priorities and relationships needed to strengthen action for Rare and Complex Epilepsies in Australia.</p>
+            <p>SCN2A Australia is a Rare and Complex Epilepsy organisation focused on advocacy, research and education in the DEE community, with a specific focus on SCN2A-related disorders.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="downloads" class="section" aria-labelledby="downloads-title">
+        <div class="container">
+          <p class="eyebrow teal">Report resources</p>
+          <h2 id="downloads-title">Choose the level of detail you need</h2>
+          <div class="cards">
+            <article class="card cyan-card">
+              <span class="number">01</span>
+              <p class="option">Option 1</p>
+              <h3>1-page infographic</h3>
+              <p>A visual overview of the shared vision.</p>
+              <span class="coming">Coming soon</span>
+            </article>
+            <article class="card green-card">
+              <span class="number">02</span>
+              <p class="option">Option 2</p>
+              <h3>3-page Executive Summary</h3>
+              <p>The key messages and priorities at a glance.</p>
+              <span class="coming">Coming soon</span>
+            </article>
+            <article class="card blue-card">
+              <span class="number">03</span>
+              <p class="option">Option 3</p>
+              <h3>Full Technical Report</h3>
+              <p>The complete report from the DEE Roundtable.</p>
+              <a class="download-link" href="#request-report">Download report <span aria-hidden="true">→</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sponsor-panel" aria-labelledby="sponsors-title">
+        <div class="container">
+          <p class="eyebrow purple">Sponsors of this work</p>
+          <h2 id="sponsors-title">With the support of</h2>
+          <div class="sponsors">
+            <div class="logo-card"><img src="public/lundbeck-logo.jpg" alt="Lundbeck" /></div>
+            <div class="logo-card"><img src="public/ucb-logo.png" alt="UCB — Inspired by patients. Driven by science." /></div>
+            <div class="logo-card"><img src="public/scn2a-australia-logo.png" alt="SCN2A Australia" /></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="request-report" class="section form-section" aria-labelledby="form-title">
+        <div class="container form-grid">
+          <div>
+            <p class="eyebrow light">Full Technical Report</p>
+            <h2 id="form-title">Access the report</h2>
+            <p>Share a few details to download the Full Technical Report.</p>
+          </div>
+          <form id="report-form" class="report-form">
+            <label>Name<input name="name" autocomplete="name" required /></label>
+            <label>Email<input name="email" type="email" autocomplete="email" required /></label>
+            <label>Stakeholder type (optional)
+              <select name="stakeholder">
+                <option value="">Select an option</option>
+                <option>Person or family</option><option>Clinician</option><option>Researcher</option><option>Advocacy or community organisation</option><option>Industry</option><option>Government or policy</option><option>Other</option>
+              </select>
+            </label>
+            <label class="checkbox"><input name="informed" type="checkbox" /> <span>Yes, I would like to remain informed about future Roundtable updates.</span></label>
+            <button class="button button-dark" type="submit">Download Full Technical Report <span aria-hidden="true">→</span></button>
+            <p class="form-note">Your details and preferences are not stored or sent from this website.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><div class="container">Rare and Complex Epilepsies in Australia</div></footer>
+    <script>
+      document.getElementById('report-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        if (this.reportValidity()) window.location.assign('public/rare-complex-epilepsies-australia-report.pdf');
+      });
+    </script>
+  </body>
+</html>
