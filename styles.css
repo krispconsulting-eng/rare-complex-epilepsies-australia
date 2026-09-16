@@ -18,6 +18,7 @@
 .rce-dl__btn:focus-visible{outline:3px solid #0b3f8f;outline-offset:2px}
 .rce-dl__footer{background:#fff;padding:20px 24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:baseline;font-size:13px}
 .rce-dl__credit{color:#767676}
+.rce-dl__contacts{display:flex;flex-direction:column;gap:4px}
 .rce-dl__footer a{color:#0b3f8f;text-decoration:underline}
 .rce-dl__footer a:hover{color:#03737b}
 .rce-dl--glance .rce-dl__bar{background:#3b7838}.rce-dl--glance .rce-dl__pages{color:#336b31}.rce-dl--glance .rce-dl__btn{background:#3b7838;color:#fff}
