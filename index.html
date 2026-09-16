@@ -58,7 +58,7 @@
                 <p class="rce-dl__pages">1 page</p>
                 <h3 class="rce-dl__h">At a Glance</h3>
                 <p class="rce-dl__p">A one-page visual summary of the problem, the ask and the seven Roundtable sections. Best for a fast overview or sharing on a single screen.</p>
-                <span class="rce-dl__btn rce-dl__btn--soon">Coming soon</span>
+                <a class="rce-dl__btn" href="rce-at-a-glance.pdf" target="_blank" rel="noopener">View infographic (PDF)</a>
               </div>
             </article>
 
@@ -68,7 +68,7 @@
                 <p class="rce-dl__pages">3 pages</p>
                 <h3 class="rce-dl__h">Executive Summary</h3>
                 <p class="rce-dl__p">The key findings, the sector consensus and the recommended next steps. Best for policymakers, partners and sponsors who need the case without the full detail.</p>
-                <span class="rce-dl__btn rce-dl__btn--soon">Coming soon</span>
+                <a class="rce-dl__btn" href="rce-executive-summary.pdf" target="_blank" rel="noopener">View executive summary (PDF)</a>
               </div>
             </article>
 
@@ -129,7 +129,7 @@
     <footer><div class="container">Rare and Complex Epilepsies in Australia</div></footer>
     <script>
       var WEBHOOK_URL = 'https://flows.scn2aaustralia.org/webhook/rce-report-request';
-      var REPORT_URL = 'rare-complex-epilepsies-australia-report.pdf';
+      var REPORT_URL = 'rce-full-technical-report.pdf';
       document.getElementById('report-form').addEventListener('submit', function (event) {
         event.preventDefault();
         if (!this.reportValidity()) return;
