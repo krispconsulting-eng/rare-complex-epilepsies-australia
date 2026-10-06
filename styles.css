@@ -16,6 +16,10 @@
 .rce-dl__p{font-size:15px;line-height:1.5;color:#203247;margin:0 0 20px;flex:1}
 .rce-dl__btn{display:block;text-align:center;font-size:15px;font-weight:700;padding:10px 16px;text-decoration:none}
 .rce-dl__btn:focus-visible{outline:3px solid #0b3f8f;outline-offset:2px}
+.rce-dl__method{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:-16px 0 40px;font-size:14px;color:#203247}
+.rce-dl__method-btn{display:inline-block;font-size:14px;font-weight:700;padding:8px 14px;color:#00163b;background:#fff;border:2px solid #00163b;text-decoration:none}
+.rce-dl__method-btn:hover{background:#00163b;color:#fff}
+.rce-dl__method-btn:focus-visible{outline:3px solid #0b3f8f;outline-offset:2px}
 .rce-dl__footer{background:#fff;padding:20px 24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:baseline;font-size:13px}
 .rce-dl__credit{color:#767676}
 .rce-dl__contacts{display:flex;flex-direction:column;gap:4px}
